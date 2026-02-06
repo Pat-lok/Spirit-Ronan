@@ -3,11 +3,16 @@ using TMPro;
 
 public class ShopPanel : MonoBehaviour
 {
+    public static ShopPanel Instance;
     public ShopItemUI itemPrefab;
     public Transform contentParent;
     public ShopItemData[] items;
     public TextMeshProUGUI coinText;
 
+private void Awake()
+    {
+        Instance = this;
+    }
     private void OnEnable()
     {
         BuildShop();

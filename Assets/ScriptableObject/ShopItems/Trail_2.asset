@@ -17,5 +17,5 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: e17a2fe354694784ca6f2f2fd69c268f, type: 3}
   price: 20
   isDefault: 0
-  backgroundIndex: 0
+  backgroundIndex: 200
   bladeTrailIndex: 2

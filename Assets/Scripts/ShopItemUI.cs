@@ -13,7 +13,8 @@ public class ShopItemUI : MonoBehaviour
 
     private ShopItemData data;
 
-    private string OwnedKey => "OWNED_" + data.itemID;
+    private string OwnedKey => "OWNED_" + data.itemType + "_" + data.itemID;
+
     private string SelectedKey => "SELECTED_" + data.itemType;
 
     public void Setup(ShopItemData item)
@@ -38,10 +39,12 @@ public class ShopItemUI : MonoBehaviour
             return;
 
         CoinSystem.Instance.SpendCoins(data.price);
+        
         PlayerPrefs.SetInt(OwnedKey, 1);
         PlayerPrefs.Save();
 
         Refresh();
+        ShopPanel.Instance.UpdateCoins();
     }
 
     void Select()

@@ -18,4 +18,4 @@ MonoBehaviour:
   price: 0
   isDefault: 1
   backgroundIndex: 0
-  bladeTrailIndex: 0
+  bladeTrailIndex: 100
