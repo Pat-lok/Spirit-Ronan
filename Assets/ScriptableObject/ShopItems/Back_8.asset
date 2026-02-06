@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba88f9b41aa9d2646b74157d05bdfe8c, type: 3}
+  m_Name: Back_8
+  m_EditorClassIdentifier: 
+  itemID: 8
+  itemType: 0
+  icon: {fileID: 21300000, guid: f250daa95cf44b14484f524a80cada8a, type: 3}
+  price: 500
+  isDefault: 0
+  backgroundIndex: 8
+  bladeTrailIndex: 0
